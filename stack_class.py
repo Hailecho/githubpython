@@ -189,39 +189,39 @@ class Registery:
         self.totalitem = 0
 
 
-# register = Registery()
-# register.addItem(12)
-# register.addItem(2.5)
-# register.addItem(2)
-# print(register.totalitem)
-# print(register.totalprice)
-# register.clear()
-# print(register.totalitem)
-# print(register.totalprice)
-# class Bank:
-#     def __init__(self, Ibalance = 0):
-#         self.Ibalance = Ibalance
-#     def deposite(self, amount):
-#         self.Ibalance += amount
-#     def withdraw(self, amount):
-#
-#         if self.Ibalance >= 10 and self.Ibalance < amount:
-#             self.Ibalance -= 10
-#         else:
-#             self.Ibalance -= amount
-#     def interst(self, rate):
-#         self.Ibalance = self.Ibalance + (self.Ibalance *(rate/100))
-#     def getBalance(self):
-#         return self.Ibalance
-# doc = Bank(100)
-# doc.deposite(120)
-# doc.deposite(230)
-# doc.deposite(50)
-# print(doc.getBalance())
-# doc.interst(10)
-# print(doc.getBalance())
-# doc.withdraw(1000)
-# print(doc.getBalance())
+register = Registery()
+register.addItem(12)
+register.addItem(2.5)
+register.addItem(2)
+print(register.totalitem)
+print(register.totalprice)
+register.clear()
+print(register.totalitem)
+print(register.totalprice)
+class Bank:
+    def __init__(self, Ibalance = 0):
+        self.Ibalance = Ibalance
+    def deposite(self, amount):
+        self.Ibalance += amount
+    def withdraw(self, amount):
+
+        if self.Ibalance >= 10 and self.Ibalance < amount:
+            self.Ibalance -= 10
+        else:
+            self.Ibalance -= amount
+    def interst(self, rate):
+        self.Ibalance = self.Ibalance + (self.Ibalance *(rate/100))
+    def getBalance(self):
+        return self.Ibalance
+doc = Bank(100)
+doc.deposite(120)
+doc.deposite(230)
+
+print(doc.getBalance())
+doc.interst(10)
+print(doc.getBalance())
+doc.withdraw(1000)
+print(doc.getBalance())
 
 class SMSstore:
 
