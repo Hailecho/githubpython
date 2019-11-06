@@ -10,3 +10,5 @@ class Stack(object):
         return self._List.pop()
     def empty(self):
         return len(self._List) == 0
+
+# Test using pytest or mypy
