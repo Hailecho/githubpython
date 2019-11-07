@@ -11,4 +11,3 @@ class Stack(object):
     def empty(self):
         return len(self._List) == 0
 
-# Test using pytest or mypy
